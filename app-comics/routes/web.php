@@ -17,6 +17,7 @@ Route::get('/', function () {
 
     $comics = config("comics");
     $others = config("others");
+    $relateds = config("footer-relateds");
 
-    return view('home', compact('comics', 'others'));
+    return view('home', compact('comics', 'others', 'relateds'));
 })->name('home');
