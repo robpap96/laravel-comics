@@ -19,5 +19,15 @@ header {
     }
     .thumb-title {
         color: white;
+        text-align: center;
+    }
+}
+
+.other {
+    background-color: var(--primary-color);
+
+    .service-name {
+        color: white;
+        font-size: 11px;
     }
 }
