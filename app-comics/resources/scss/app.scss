@@ -4,6 +4,7 @@
     --primary-color: #0282f9;
     --secondary-color: #1c1c1c;
     --footer-related-color: #959595 ;
+    --footer-bg: #303030;
 }
 
 header {
@@ -39,7 +40,6 @@ header {
     background-size: cover;
     overflow-y: hidden;
     .related {
-        max-height: 300px;
     }
     .related-title {
         color: white;
@@ -53,6 +53,25 @@ header {
                     color: var(--footer-related-color);
                     text-decoration: none;
                 }
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    background-color: var(--footer-bg);
+    .btn {
+        color: white;
+        border: 1px solid var(--primary-color);
+        font-size: 20px;
+    }
+    .follow-us {
+        color: var(--primary-color);
+    }
+    .footer-social {
+        a {
+            i {
+                color: var(--footer-related-color);
             }
         }
     }
