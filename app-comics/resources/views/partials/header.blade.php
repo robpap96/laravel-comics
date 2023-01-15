@@ -1,7 +1,7 @@
 <header>
     <div class="container py-4">
-        <div class="row align-items-center">
-            <div class="col-lg-1 ">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-1 d-flex align-items-center me-2">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="logo dc">
             </div>
             <div class="col-lg-8 mt-4">
