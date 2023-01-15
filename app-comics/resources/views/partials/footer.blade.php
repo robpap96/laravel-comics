@@ -2,6 +2,7 @@
     <section class="related-section py-5">
         <div class="container">
             <div class="row ">
+                <img src="{{Vite::asset("resources/img/dc-logo-bg.png")}}" alt="">
                 @foreach ($relateds as $item)
                 <div class="related col-3 py-3">
                     <div class="related-title">

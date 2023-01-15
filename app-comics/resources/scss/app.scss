@@ -11,6 +11,12 @@ header {
     li {
         margin: 0 15px;
     }
+    .search {
+        .btn {
+            border: none;
+        }
+        border-bottom: 2px solid var(--primary-color);
+    }
 }
 
 .all-comics{
@@ -39,7 +45,14 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: hidden;
-    .related {
+    .row{
+        position: relative;
+        img {
+            position: absolute;
+            top: -200px;
+            right: 0;
+            width: 800px;
+        }
     }
     .related-title {
         color: white;

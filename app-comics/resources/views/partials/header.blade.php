@@ -4,7 +4,7 @@
             <div class="col-lg-1 ">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="logo dc">
             </div>
-            <div class="col-lg-9 mt-4">
+            <div class="col-lg-8 mt-4">
                 <div class="nav d-flex justify-content-center align-items-center p-3">
                     <ul class="list-unstyled d-flex align-items-center mt-3">
                         <li>CHARACTERS</li>
@@ -23,12 +23,13 @@
             <div class="col-lg-2">
                 <div class="search-bar d-flex justify-content-end">
                     <div class="search">
-                        <div class="input-group mb-3">
-                            <input type="search" class="form-control" placeholder="search">
+                        <div class="input-group">
+                            <input type="search" id="form1" class="form-control" />
+                            <label class="form-label me-1" for="form1">Search</label>
+                            <button type="button" class="btn">
+                              <i class="fas fa-search"></i>
+                            </button>
                         </div>
-                    </div>
-                    <div class="search-icon">
-                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
             </div>
